@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nextbtn{
+   padding: 6px;
+   border-radius: 5px;
+}
+.terms{
+    background-color: rgb(158, 203, 255);
+    display: block;
+   margin-left: 30%;
+}
+.menu{
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    justify-content: center;
+}
+.menu ul li a{
+    padding: 15px;
+    color: #172B4D;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #fff;
+    background-color: #1E488F;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mobile-view-menu {
+    display: none; 
+}
+
+.flex{
+    display: flex;
+}
+.view:hover{
+    background-color: #085736;
+    color: silver;
+}
+.header{
+    margin: 1px 30%;
+    font-size: 50px;
+    color: #172B4D;
+}
+.headeri{
+    margin: 1px 43%;
+    font-size: 40px;
+    color: #172B4D;
+}
+.heade{
+    /* margin: 1px 34%; */
+    font-size: 1.5rem;
+    color: #172B4D;
+    /* padding: 60px; */
+    text-align: center;
+}
+.head{
+    color: #36B37E;
+    margin: 1px 28%;
+    font-size: 50px;
+}
+.bac{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+    font-size: 1.5rem;
+    padding: 0 600px;
+}
+.back{
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+    font-size: 1.5rem;
+    padding: 0 300px;
+}
+.sec{
+    /* width: 100%;
+    margin-top: 120px; */
+}
+.message{
+    margin: 20px;
+    width: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.icon{
+   margin: 10px 42%;
+
+}
+.icon img{
+    width: 20px;
+    justify-content: center;
+    padding: 8px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.desc {
+    /* margin: 12px 0; */
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+    width: 350px;
+    padding-bottom: 5px;
+    height: 140px;
+}
+
+.ice img{
+    width: 20px;
+}
+.ice{
+    margin: 50px 50%;
+}
+.set img{
+    width: 100%;
+}
+
+.set{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(197, 196, 196);
+}
+.set div p{
+    font-size: 20px;
+    /* margin: 1px 14%; */
+}
+.section{
+    /* padding: 100px; */
+    align-items: center;
+}
+.technologies{
+    margin: 4px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.technologies li{
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 229, 181);
+    border-radius: 6px;
+    margin: 0 5px;
+   white-space: nowrap;
+}
+
+.technologies li:hover{
+    color: rgb(253, 253, 253);
+    background-color: rgb(92, 92, 92);
+}
+.view{
+    background-color: #36B37E;
+    border-radius: 8px;
+    align-items: center;
+    width: auto;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    margin-top: 8px;
+}
+
+.btn a{
+   color: white;
+   /* align-items: center; */
+   font-size: 16px;
+   text-decoration: none;
+   margin: 10px; 
+}
+.btn{
+   margin: 0 auto;
+   background-color: #36B37E;
+   /* height: 45px; */
+   width: 140px;
+   align-items: center;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+  padding: 8px;
+}
+.btn:hover{
+background-color: #0ceb8e;
+}
+/* .col{
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0%;
+
+}
+.col div{
+    padding: 20px;
+    width: 300px;
+
+} */
+.third{
+    background-color: rgb(253, 234, 209);
+    align-items: center;
+    margin: 1%;
+    border-radius: 8px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.third img{
+   margin: 30px 40%;
+   width: 50px;
+}
+.third p{
+    font-size: 30px;
+    margin: 1px 30%;
+}
+.third li {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    align-items: center;
+    height: 10px;
+    padding: 13px;
+    list-style-type: none;
+    margin: 1px 2px;
+    margin-top: 20px;
+}
+.third li a{
+    color: black;
+    text-decoration: none;
+}
+.third li:hover{
+    background-color: rgb(106, 128, 109);
+    color: white;
+}
+.contact{
+    width: 100%;
+    justify-content: center;
+    /* padding: 20px;
+    margin-top: 90px;
+    margin-bottom: 200px; */
+    margin: 100px 0;
+    
+}
+.contact div p{
+    font-size: 30px;
+    margin: 2px 6%;
+    width: 100%;
+    margin-top: 40px;
+}
+.submit div {
+    margin: 1px 5%;
+    border-radius: 5px;
+    padding: 0px;
+    margin-top: 20px;
+    
+}
+.input-field{
+    width: 265px;
+    border-color: rgba(128, 128, 128, 0.315);
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.adresss-input-field{
+    padding: 10px;
+    width: 100%;
+    border-color: rgba(128, 128, 128, 0.315);
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.pos{
+    margin-top: 14px;
+    flex-direction: column;
+
+}
+.type-area{
+    width: 100%;
+
+}
+.something{
+    width: 100%;
+    padding: 44px;
+    border-color: #36B37E;
+    margin-left: 10px;
+}
+.btnn{
+    margin-top: 20px;
+    margin: 5%;
+}
+.btnn button{
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #36B37E;
+    color: white;
+}
+#rock{
+    background-color: rgb(219, 216, 216);
+}
+.btnn button:hover{
+    background-color: #023f25;
+    color: white;
+}
+
+.conc{
+  padding: 50px 0;
+    background-color: rgb(187, 187, 187);
+}
+
+.conclusion{
+    background-color: white;
+    width: 60%;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+}
+.close{
+    margin-top: 10px;
+    float: right;
+}
+.close a{
+   text-decoration: none;
+}
+.close  a img{
+    height: 38px;
+}
+.fa-exclamation-triangle{
+    width: 10px;
+}
+.end{
+    background-color: #0696da;
+    align-content: center;
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+}
+.end div {
+    padding: 30px;
+}
+
+.end div h1{
+    font-size: 60px;
+}
+.end div h2{
+    font-size: 30px;
+}
+
+.description {
+margin: 30px 0;
+
+}
+
+.pht h4{
+    margin-top: 50px;
+}
+.pht div img{
+    width: 80px;
+    align-items: center;
+    padding: 10px;
+}
+.seach{
+    /* margin-top: 25px; */
+    white-space: nowrap;
+}
+.seach h2{
+font-size: 2 rem;
+margin: 0px 6%;
+color: #172B4D;
+}
+.seach div{ 
+    white-space: nowrap;
+}
+
+.seach a{ 
+    padding: 8px;
+    background-color: #36B37E;
+    border-radius: 10px;
+  margin-left: 12PX;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.seach a:hover{
+    background-color: rgb(76, 102, 79);
+    color: white;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    /* margin: 0px 5.5%; */
+    margin-top: 30px;
+}
+.list ul li{
+    padding: 8px;
+    color: #172B4D;
+    background-color: silver;
+    border-radius: 5px;
+    margin: 2px;
+    align-items: center;
+}
+.paragrapgh{
+    margin:  25px 0;
+    color: #172B4D;
+    text-align: justify;
+}
+.list ul li:hover{
+    background-color: rgb(106, 128, 109);
+    color: white;
+}
+
+.space-btn {
+    justify-content: space-between;
+}
+
+.form-group {
+display: flex;
+}
+
+/* mobile view */
+@media screen and (max-width: 768px) {
+    .menu{
+        /* padding: 20px;  */
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-view-menu {
+        display: flex; 
+        /* justify-content: space-between; */
+    }
+
+    .display-menu {
+        display: none;
+    }
+
+    .sec{
+        width: 100%;
+        margin-top:80px;
+        text-align: center;
+    }
+
+    .header,
+    .head,
+    .message{
+        margin: 1px 10px;
+    }
+
+    .icon {
+        margin: 1px 10px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .list{
+        width: 5px;
+    }
+    .list ul{
+        list-style-type: none;
+        display: flex;
+        /* margin: 0px 5.5%; */
+        margin-top: 30px;
+    }
+    .list ul li{
+        padding: 1px;
+        font-size: 9px;
+        color: #172B4D;
+        background-color: silver;
+        border-radius: 2px;
+        /* margin: 2px; */
+        align-items: center;
+    }
+    .back{
+        padding: 60px;
+        text-decoration: none;
+        color: rgb(0, 38, 255);
+        font-size: 1rem;
+    }
+    .seach h2{
+        font-size: 16px;
+    }
+    .seach{
+        flex-direction: column;
+    }
+    .end div h1{
+        font-size: 40px;
+    }
+    .end div h2{
+        font-size: 25px;
+    }
+    .header{
+        font-size: 27px;
+    }
+    .head{
+        font-size: 20px;
+    }
+    .message{
+        font-size: 20px;
+        width: 75%;
+    }
+    .icon{
+        padding: 40px;
+    }
+    .icon img{
+       margin-left: 25px;
+        padding: 0px;
+        width: 15px;
+    }
+    .ice{
+        margin-left: 50%;
+    }
+    .ice img{
+        width: 10px;
+    }
+    .heade{
+        font-size: 1.5rem;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .set img{
+        width: 100%;
+    }
+    .desc{
+        width: 100%;
+    }
+    .submit div{
+        flex-direction: column;
+    }
+    .submit div input{
+        width: 250px;
+    }
+    .adresss-input-field{
+        width: 90%;
+    }
+    .something{
+        width: 80%;
+        padding: 30px;
+    }
+    .contact{
+        width: 100%;
+        flex-direction: column;
+    }
+    .contact div p{
+        font-size: 1rem;
+        width: 75%;
+        padding: 30px;
+    }
+    .message{
+        font-size: 1rem;
+        padding: 30px;
+        width: 75%;
+    }
+    .btnn{
+       padding: 0px 8%;
+    }
+    .btnn button{
+        padding: 0px 20px;
+        margin-left: 60px;
+    }
+    .col{
+        width: 90%;
+        padding: 10px;
+    }
+    .bac{
+       /* margin: 0px 37%; */
+       padding: 120px;
+       text-decoration: none;
+       color: rgb(0, 38, 255);
+       font-size: 1rem;
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+        /* width: 100%; */
+    }
+    .conc{
+          width: 100%;
+          background-color: rgb(187, 187, 187);
+    
+      }
+      .mobile-view-menu{
+        text-decoration: none;
+        color: rgb(0, 38, 255);
+        font-size: 1.5rem;
+      }
+
+      .input-field{
+        width: 92%;
+        border-color: rgba(128, 128, 128, 0.315);
+        border-radius: 4px;
+        padding: 10px;
+       
+    }
+
+    .form-group {
+    flex-direction: column;
+    width: 100%;
+    }
+
+    
+    .form-group input {
+     margin: 5px 0;
+        }
+
+
+
+}
